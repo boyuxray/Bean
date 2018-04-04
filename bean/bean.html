@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Bean - Homepage</title>
+		<meta name="description" content="The Homepage Of Bean">
+		<meta name="author" content="Julius Magpayo">
+		 <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=2;">
+		 <!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+		 <link rel="stylesheet" href="css\stylesheet.css" type="text/css" charset="utf-8" />
+		 <link rel="stylesheet" href="css\normal.css" type="text/css" charset="utf-8" />
+		 <link rel="icon" type="image/png" href="css\fav.png" />
+	</head>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	<body>
+		<center>
+		<br><br>
+		<div class="box">
+		<img src="css\banner.png" height="100" width="1502">
+		</div>
+		<div class="nav">
+      <ul>
+        <li class="home"><a href="#">Home</a></li>
+        <li class="tutorials"><a href="#">Games</a></li>
+        <li class="about"><a href="#">About</a></li>
+        <li class="contact"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+		</center>
+		</div>
+		<center>
+		<div class="flex-container">
+		  <div style="padding-left: 201px;"><iframe src="https://open.spotify.com/embed/user/spotifycharts/playlist/37i9dQZEVXbMDoHDwVN2tF" width="400" height="480" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+		  <div>
+		  <div id="twitch-embed"></div>
+
+			<!-- Load the Twitch embed script -->
+			<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+			<!--
+			  Create a Twitch.Embed object that will render
+			  within the "twitch-embed" root element.
+			-->
+			<script type="text/javascript">
+			  var embed = new Twitch.Embed("twitch-embed", {
+				width: 700,
+				height: 480,
+				channel: "gamebeantv",
+				layout: "video",
+				autoplay: false
+			  });
+
+			  embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+				var player = embed.getPlayer();
+				player.play();
+			  });
+			</script>
+		  </div>
+		  <div>
+		  <iframe frameborder="0" 
+				scrolling="no" 
+				id="chat_embed" 
+				src="https://www.twitch.tv/gamebeantv/chat??darkpopout" 
+				height="480" 
+				width="400">
+			</iframe>
+		  </div>
+		</div>
+		<div class="grey">
+		  <marquee><p style="color: white; fontsize: 50px; background-color: black;">  NOW STREAMING!! FACEBOOK!! TWITCH!! NOW STREAMING!! FACEBOOK!! TWITCH!! NOW STREAMING!! FACEBOOK!! TWITCH!! NOW STREAMING!! FACEBOOK!!</p></marquee>
+		</div>
+		<img src="css\z.png" style="padding-left: 42px">
+		</center>
+	</body>
+</html>

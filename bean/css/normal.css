@@ -1,0 +1,138 @@
+	html { 
+		  background: url(bgbean.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+			}
+			p {
+				font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+				font-weight:normal;
+				font-style:normal;
+				color: #e25ced;
+				text-shadow: 2px 1px 1px #000;
+			}
+			span {
+				background-color: #f18973;
+			}
+			.left {
+				float: left;
+			}
+			.center {
+				display: inline-block;
+				margin:0 auto;
+				background-color: #FAF9FA;
+				width: 1000px;
+			}
+			.right {
+				align: right;
+				float: right;
+			}
+			#container {
+			  display: flex;                  /* establish flex container */
+			  flex-direction: row;            /* default value; can be omitted */
+			  flex-wrap: nowrap;              /* default value; can be omitted */
+			  justify-content: space-between; /* switched from default (flex-start, see below) */
+			}
+			.box {
+				background-color: #FAF9FA;
+				border: 1px solid black;
+				width: 78%;
+				height: 100px;
+			}
+			.box p {
+				padding-left: 15px;
+			}
+			.header {
+				background-color: #FAF9FA;
+				width: 78%;
+				height: 200px;
+				border: 2px solid black;
+			}
+			.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 78%;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-top: 1px solid #000000;	
+	border-bottom: 1px solid #000000;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  font-size: 30px;
+}
+.grey {
+	background-color: #444;
+	width: 60%;
+	height: 50px;
+	border: 1px solid black;
+}
+.zone {
+	background: url(stained.png) no-repeat;
+	background-size: 100%;
+	width: 78%;
+	height: 100%;
+	border: 5px solid #444;
+}
+.grey p { color: black; font-size: 12px; }
+.home { border: 1px solid black; }
+.files { border: 1px solid black; }
+.contact { border: 1px solid black; }
