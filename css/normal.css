@@ -48,7 +48,7 @@
 			}
 			.nav ul {
   list-style: none;
-  background: url('stbg.png');
+  background-color: #444;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -128,6 +128,6 @@
 	border: 5px solid #444;
 }
 .grey p { color: black; font-size: 12px; }
-.home { border: 1px solid black; }
-.files { border: 1px solid black; }
-.contact { border: 1px solid black; }
+.home { border: 1px solid black; background: url('stbg.png'); }
+.files { border: 1px solid black; background: url('stbg.png'); }
+.contact { border: 1px solid black; background: url('stbg.png');}
