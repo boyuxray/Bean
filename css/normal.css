@@ -118,6 +118,7 @@
 }
 .grey {
 	background-color: #444;
+	background: url('stbg.png');
 	width: 60%;
 	height: 50px;
 	border: 1px solid black;
