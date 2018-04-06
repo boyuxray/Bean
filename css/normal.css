@@ -157,7 +157,7 @@ div.item {
     text-align: center;
     width: 120px;
 }
-img {
+div.item img {
     width: 100px;
     height: 100px;
 }
