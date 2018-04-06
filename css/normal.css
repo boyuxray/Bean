@@ -4,6 +4,7 @@
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
 		  background-size: cover;
+		}
 		a:link {
 			color:#e25ced;
 			font-weight: bold;
