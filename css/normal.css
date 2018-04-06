@@ -125,8 +125,6 @@
 .zone {
 	background: url(stained.png) no-repeat;
 	background-size: 100%;
-	width: 78%;
-	height: 100%;
 	border: 5px solid #444;
 }
 .grey p { color: black; font-size: 12px; }
