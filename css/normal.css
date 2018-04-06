@@ -21,6 +21,9 @@
 				background-color: #FAF9FA;
 				width: 1000px;
 			}
+			h1 { 
+				color: #638130;
+			}
 			.right {
 				align: right;
 				float: right;
