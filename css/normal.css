@@ -4,6 +4,17 @@
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
 		  background-size: cover;
+		a:link {
+			color:#e25ced;
+			font-weight: bold;
+		}
+		a:visited {
+			color: #e25ced;
+			font-weight: bold;
+		}
+		A:hover {
+			COLOR: #f09bf7;
+			text-decoration:underline;
 			}
 			.zone p {
 				font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
