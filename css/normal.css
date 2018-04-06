@@ -150,3 +150,16 @@
 .home { border: 1px solid black; background: url('css\stbg.png'); }
 .files { border: 1px solid black; background: url('css\stbg.png'); }
 .contact { border: 1px solid black; background: url('css\stbg.png');}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.caption {
+    display: block;
+}
