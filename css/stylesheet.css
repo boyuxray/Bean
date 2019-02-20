@@ -10,3 +10,15 @@
     font-style: normal;
 
 }
+.bg { 
+	position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:url('front.png') 0 0, url('middle.png') 40% 0, url('back.png') 80% 0, #000;
+  -webkit-animation: moving-images 400s ease infinite;
+     -moz-animation: moving-images 400s ease infinite;
+       -o-animation: moving-images 400s ease infinite;
+          animation: moving-images 400s ease infinite;
+			}
