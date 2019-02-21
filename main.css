@@ -11,7 +11,14 @@
   margin-bottom:0px;
   padding-left: 50px;
 }
+@font-face {
+    font-family: 'houseplant_demoregular';
+    src: url('houseplant_demo-webfont.woff2') format('woff2'),
+         url('houseplant_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 h2.quizHeader {
   font-family: Arial, sans-serif;
   font-weight:normal;
@@ -164,17 +171,21 @@ SFS dark red = #9f2026; */
 				font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 				font-weight: bold;
 				color: white;
-				text-shadow: 2px 2px green;
+				text-shadow: 2px 2px #876c33;
 			}
 			h2 {
-				font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-				color: green;
+				font-family: 'houseplant_demoregular';
+				font-size: 50px;
+				color: #e49b45;
 				text-shadow: 2px 2px black;
+				display: inline;
 			}
 			h1 {
-				font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-				color: green;
+				font-family: 'houseplant_demoregular';
+				font-size: 70px;
+				color: #e49b45;
 				text-shadow: 2px 2px black;
+				display: inline;
 			}
 .follow {
 	overflow: hidden;
@@ -182,20 +193,30 @@ SFS dark red = #9f2026; */
   top: 0;
   width: 100%;
 }
+.nava a {
+	text-decoration: none;
+  color: #e49b45;
+  transition: .3s background-color;
+  text-decoration: underline;
+  display: inline;
+}
+.nava a:hover {
+	color: white;
+}
 a {
   text-decoration: none;
-  color: #e216bd;
+  color: #e49b45;
   display: block;
   transition: .3s background-color;
   text-decoration: underline;
 }
  
 a:hover {
-  color: blue;
+  color: white;
 }
  
 a.active {
-  color: #e216bd;
+  color: #e49b45;
   cursor: default;
   text-decoration: underline;
 }
